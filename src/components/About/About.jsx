@@ -46,7 +46,7 @@ const About = () => {
 
           {/* About Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a pre-final year CSE student and freelance developer who loves
+            I am a pre-final year Computer Science & Engineering student and freelance developer who loves
             building meaningful, user-focused products. Curious and always
             learning, I enjoy turning ideas into working solutions with clean,
             thoughtful code. I bring energy, problem-solving, and a willingness
