@@ -3,6 +3,11 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+
 const Contact = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
@@ -12,15 +17,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_co1hlbd", 
-        "template_r5d9kgb", 
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
         form.current,
-        "Rz7W9pVF0HdDryNNL" // Replace with your EmailJS Public Key
+        EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setIsSent(true);
-          form.current.reset(); // Reset form fields after sending
+          form.current.reset();
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
