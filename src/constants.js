@@ -46,7 +46,7 @@ const jvmLogo = "/assets/school_logo/jvmLogo.jpg";
 const mgm = "/assets/school_logo/mgm.jpeg";
 
 // Project Section Logos
-const deltaAi = "/assets/project_logos/deltaAi.png";
+const deltaAi = "/assets/project_logos/deltaFrame.png";
 const prakriti = "/assets/project_logos/prakriti.png";
 const feedMeBack = "/assets/project_logos/feedMeBack.png";
 
@@ -147,7 +147,7 @@ export const education = [
     school: "BIT Sindri",
     date: "Sept 2023 - July 2027",
     grade: "8.00 CGPA",
-    desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura...",
+    desc: "Bachelor of Technology in Computer Science (CGPA: 8.00) from BIT Sindri, where I served in the Leo Club and IFQM, became an SIH 2024 Grand Finalist, and won multiple debate competitions.",
     degree: "Bachelor of Technology, Computer Science Engineering",
   },
   {
@@ -156,7 +156,7 @@ export const education = [
     school: "Jawahar Vidya Mandir, Shyamali",
     date: "June 2021 - May 2023",
     grade: "88.4%",
-    desc: "I completed my Bachelor's degree...",
+    desc: "Completed CBSE Class XII (Physics, Chemistry, Mathematics + Computer Science) from JVM Shyamali with 88.4% and secured 97 percentile in JEE Mains.",
     degree: "CBSE (XII) - PCM with Computer Science",
   },
   {
@@ -165,7 +165,7 @@ export const education = [
     school: "MGM Higher Secondary School",
     date: "Apr 2015 - April 2021",
     grade: "96%",
-    desc: "I completed my class 12 education...",
+    desc: "Completed CBSE Class X from MGM Higher Secondary School with 96%, served as School Prefect, and won multiple debate competitions, showcasing strong leadership skills.",
     degree: "CBSE(X)",
   },
 ];
@@ -174,24 +174,25 @@ export const projects = [
   {
     id: 0,
     title: "deltaAi",
-    description: "A powerful and user-friendly React.js application...",
+    description:
+      "Built a full-stack conversational AI platform using Gemini 2.0 Flash for real-time, context-aware chat, featuring a React + TypeScript UI and a scalable Node.js/Express backend with MongoDB.",
     image: deltaAi,
-    tags: ["HTML", "TailwindCSS", "TypeScript", "React JS", "API"],
+    tags: ["React.js", "MongoDB", "TypeScript", "Node.js", "Gemini Flash API"],
     github: "https://github.com/geekyanimesh/delta",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    webapp: "https://delta-frontend-nu.vercel.app/",
   },
   {
     id: 1,
     title: "प्रKriti",
-    description: "प्रKriti is a sustainability-driven platform...",
+    description:
+      "प्रKriti is a sustainability-driven platform using AI for waste segregation and green retail, built collaboratively for SMART INDIA HACKATHON 2024 Grand Finale.",
     image: prakriti,
     tags: [
       "React JS",
       "Node.js",
       "MongoDB",
+      "YOLO",
       "Express",
-      "HTML",
-      "CSS",
       "JavaScript",
     ],
     github: "https://github.com/codingmastr/CSPrep",
@@ -201,9 +202,10 @@ export const projects = [
   {
     id: 2,
     title: "FeedMeBack",
-    description: "A React-based web application...",
+    description:
+      "Built feedMeBack, an AI-assisted SaaS platform for anonymous product feedback, using Next.js, Auth.js, OTP email verification, the Gemini SDK, and MongoDB.",
     image: feedMeBack,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    tags: ["Next.js", "Auth.js", "MongoDB", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/geekyanimesh/FeedMeBack",
   },
 ];
