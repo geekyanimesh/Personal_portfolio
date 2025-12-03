@@ -1,8 +1,8 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
-const myPic = "/assets/myPic.png";
 
+const myPic = "/assets/myPic.png";
 
 const About = () => {
   return (
@@ -13,20 +13,16 @@ const About = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
 
-          {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Animesh Kumar
           </h2>
 
-          {/* Skills with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
-
             <span className="text-[#8245ec]">
               <Typewriter
                 words={[
@@ -45,16 +41,15 @@ const About = () => {
             </span>
           </h3>
 
-          {/* About Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a pre-final year Computer Science & Engineering student and freelance developer who loves
-            building meaningful, user-focused products. Curious and always
-            learning, I enjoy turning ideas into working solutions with clean,
-            thoughtful code. I bring energy, problem-solving, and a willingness
-            to grow, collaborate, and add real value to any team I join.
+            I am a pre-final year Computer Science & Engineering student and
+            freelance developer who loves building meaningful, user-focused
+            products. Curious and always learning, I enjoy turning ideas into
+            working solutions with clean, thoughtful code. I bring energy,
+            problem-solving, and a willingness to grow, collaborate, and add
+            real value to any team I join.
           </p>
 
-          {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/1lohAWTxZS5DXeD_sbzFq3qsaJe-KEpUI/view?usp=drive_link"
             target="_blank"
@@ -82,7 +77,7 @@ const About = () => {
           >
             <img
               src={myPic}
-              alt="Animesh Kumar0"
+              alt="Animesh Kumar"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
