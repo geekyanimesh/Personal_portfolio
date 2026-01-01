@@ -39,6 +39,7 @@ const kubernetesLogo = "/assets/tech_logo/kubernetesLogo.png";
 // Experience Section Logos
 const sa = "/assets/company_logo/sa.png";
 const cod = "/assets/company_logo/cod.png";
+const farAlpha = "/assets/company_logo/faralpha-logo.png";
 
 // Education Section Logos
 const BIT = "/assets/school_logo/BIT.png";
@@ -105,6 +106,23 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: farAlpha,
+    role: "SDE Intern",
+    company: "FarAlpha Technologies",
+    date: "Dec 2025 ",
+    desc: "Orchestrated containerized apps using Docker and Kubernetes, leveraging HPA for automated scaling and high availability. Deployed cloud infrastructure on AWS Elastic Beanstalk and automated workflows with Airflow DAGs on EC2 instances. Streamlined delivery by building CI/CD pipelines that automated database migrations and multi-stage container builds.",
+    skills: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Apache Airflow",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+    ],
+  },
+  {
+    id: 1,
     img: sa,
     role: "FullStack Developer",
     company: "Samriddhi Associates",
@@ -123,7 +141,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: cod,
     role: "JavaScript Developer",
     company: "CodSoft Inc",
